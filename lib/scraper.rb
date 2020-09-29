@@ -34,6 +34,3 @@ class Scraper
         students_hash[:bio] = html.css("div.bio-content p").text
     students_hash
   end
-
-
-
